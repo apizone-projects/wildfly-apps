@@ -1,11 +1,11 @@
 WildFly Training
 ---
 
-**Duration:** 14 Hours
+**Duration:** 18 Hours
 
 1. **WildFly Introduction**
    
-    Introduction to Java Application Servers and WildFly
+    Introduction to Java Application Servers and WildFly - History, Walkthrough, High Level setup
 
 2. **WildFly Runtime**
 

@@ -5,6 +5,6 @@
 <web-app>
     <display-name>apizone-cluster-app</display-name>
 
-    <!--distributable/ -->
+    <distributable/ >
 
 </web-app>

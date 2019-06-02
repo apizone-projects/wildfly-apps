@@ -1,40 +1,41 @@
-WildFly Apps
+WildFly Training
 ---
 
-### WildFly Training
+**Duration:** 14 Hours
 
-1. WildFly Introduction
+1. **WildFly Introduction**
    
     Introduction to Java Application Servers and WildFly
 
-2. WildFly Runtime
+2. **WildFly Runtime**
 
     Walkthrough of WildFly runtime environment that includes Topology, Hosts, Server Groups and Profile - default, ha, full, full-ha
 
-3. WildFly Configuration - Part I
+3. **WildFly Configuration - Part I**
 
     Configuration options for various profiles, interfaces, socket binding, System properties etc.
 
-4. WildFly Deployments
+4. **WildFly Deployments**
 
     Java application deployments on WildFly. This includes modules (JAR, WAR, EAR) deployments through WildFly UI (HAL) and jboss-cli
 
-5. WildFly Configuration - Part II
+5. **WildFly Configuration - Part II**
 
     More detailed configuration of WildFly in Standalone & Domain mode using standalone.xml or domain.xml  
     Further configurations of host-master and host-slaves for domain mode. JVM parameters, server groups, data sources, interfaces etc.
 
 
-6. WildFly Access Control
+6. **WildFly Access Control**
 
     WildFly Default and RBAC based access controls. Users, Groups & Roles.
 
-7. Hands-on Lab
+7. **Hands-on Lab**
 
     Hands-on lab for WildFly Configuration, Deployment and Runtime changes
 
 
-
+---
+  
 JBoss CLI
 ---
 $DOMAIN_HOME/bin/jboss-cli.sh
@@ -92,7 +93,7 @@ $DOMAIN_HOME/bin/jboss-cli.sh
 
     /host=host16038-salve:read-children-names(child-type=server)  
 
-    
+
 
 ### Start/Stop Servers
 

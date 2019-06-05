@@ -111,3 +111,11 @@ $DOMAIN_HOME/bin/jboss-cli.sh
     connect <dc-host>:<dc-port>
 
 /profile=ha/subsystem=datasources/data-source=`<datasource-name>`:add(jndi-name="java:jboss/datasource/`<jndi-name>`",connection-url="jdbc:oracle:thin:@XXX.XXX.XXX.XXX:XXXX/`<service-name>`",driver-name=oracle,user-name=`<user-name>`,password=`<password>`,valid-connection-checker-class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleValidConnectionChecker",stale-connection-checker-class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleStaleConnectionChecker",exception-sorter-class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleExceptionSorter")
+
+
+### Check Active Sessions for a Deployment
+
+    /host=host16026-salve/server=host16026-Server1/deployment=cluster-test.war/subsystem=undertow:read-resource(include-runtime)  
+    /host=host16027-salve/server=host16027-Server1/deployment=cluster-test.war/subsystem=undertow:read-resource(include-runtime)  
+    
+    
